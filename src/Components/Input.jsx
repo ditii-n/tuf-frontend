@@ -11,7 +11,7 @@ function Input() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/v1/users/save",
+        "https://aggressive-stockings-worm.cyclic.app/api/v1/users/save",
         inputs
       );
       console.log("Response:", response.data);
