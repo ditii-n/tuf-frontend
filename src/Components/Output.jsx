@@ -7,7 +7,7 @@ function Output() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:8000/api/v1/users/getdata"
+        "https://aggressive-stockings-worm.cyclic.app/api/v1/users/getdata"
       );
       setFetchedData(response.data.message);
     } catch (error) {
